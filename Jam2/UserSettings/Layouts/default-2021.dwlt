@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 350}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 65
+  controlID: 71
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 121
+  controlID: 70
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 45
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -383,21 +383,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Player Resources
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\iankc\Desktop\School\CMPM 170\Jam 2\Jam2\Jam2
+  m_LastProjectPath: C:\Users\Ethan\Documents\GitHub\Jam2\Jam2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: fa490000
     m_LastClickedID: 18938
-    m_ExpandedIDs: 00000000565b0000585b00005a5b00005c5b00005e5b0000
+    m_ExpandedIDs: 00000000a01200007e5b0000805b0000825b0000845b0000865b0000885b00008a5b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -425,21 +425,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000565b0000585b00005a5b00005c5b00005e5b0000905b0000
+    m_ExpandedIDs: ffffffff00000000a01200007e5b00008a5b0000b65b0000b85b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: MovementScene 1
-      m_OriginalName: MovementScene 1
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 28662
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
@@ -798,9 +798,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -7.9176755, y: 3.4518316, z: 6.3765707}
+    m_Target: {x: 69.45081, y: 2.7452667, z: -7.3552194}
     speed: 2
-    m_Value: {x: -7.9176755, y: 3.4518316, z: 6.3765707}
+    m_Value: {x: 69.45081, y: 2.7452667, z: -7.3552194}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -847,11 +847,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.02061421, y: 0.7325362, z: -0.022212718, w: -0.6799615}
+    m_Target: {x: 0.12843888, y: -0.48956034, z: 0.074127704, w: 0.85949945}
     speed: 2
-    m_Value: {x: -0.020615496, y: 0.73258185, z: -0.022214103, w: -0.6800039}
+    m_Value: {x: 0.12947665, y: -0.49192584, z: 0.0752362, w: 0.8576621}
   m_Size:
-    m_Target: 11.925186
+    m_Target: 12.124355
     speed: 2
     m_Value: 11.925186
   m_Ortho:
@@ -909,9 +909,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 12750000
-      m_LastClickedID: 29970
-      m_ExpandedIDs: bc3effffde51ffff8455ffff9a60ffff7681ffff96d6ffff96f1ffff12f9ffff16f9ffff36fbfffff8590000a25a0000ae5a0000067000004a700000
+      m_SelectedIDs: b25b0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 0cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
