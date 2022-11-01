@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PortalTextureSetup : MonoBehaviour
 {
+    /*
     public Camera camera2;
     public Camera camera1;
     public Camera cameraTest;
@@ -13,27 +14,23 @@ public class PortalTextureSetup : MonoBehaviour
     public Material cameraMat2;
 
     public Material cameraMatTest;
+*/
+    public Camera[] cameras;
+    public Material[] materials;
+    
 
     private void Start() {
-        if (camera2.targetTexture != null)
+        for (int i = 0; i < cameras.Length && i < materials.Length; i++)
         {
-            camera2.targetTexture.Release();
-        }    
-        camera2.targetTexture = new RenderTexture(Screen.width, Screen.height, 24);
-        cameraMat2.mainTexture = camera2.targetTexture;
+            Camera camera = cameras[i];
+            Material material = materials[i];
+            if (camera.targetTexture != null)
+            {
+                camera.targetTexture.Release();
+            }
+            camera.targetTexture = new RenderTexture(Screen.width, Screen.height, 24);
+            material.mainTexture = camera.targetTexture;
 
-        if (camera1.targetTexture != null)
-        {
-            camera1.targetTexture.Release();
-        }    
-        camera1.targetTexture = new RenderTexture(Screen.width, Screen.height, 24);
-        cameraMat1.mainTexture = camera1.targetTexture;
-
-        if (cameraTest.targetTexture != null)
-        {
-            cameraTest.targetTexture.Release();
-        }    
-        cameraTest.targetTexture = new RenderTexture(Screen.width, Screen.height, 24);
-        cameraMatTest.mainTexture = cameraTest.targetTexture;
+        }
     }
 }
