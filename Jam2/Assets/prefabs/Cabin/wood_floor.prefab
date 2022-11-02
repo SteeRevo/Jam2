@@ -9,8 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6785300163355302232}
-  - component: {fileID: 5372111210319435828}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: wood_floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33,20 +32,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!64 &5372111210319435828
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6152455993176425442}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6111417943849344139, guid: 13d0f347751106d49a7c966dd1259b81, type: 3}
 --- !u!1 &8995828842938070438
 GameObject:
   m_ObjectHideFlags: 0
@@ -58,7 +43,8 @@ GameObject:
   - component: {fileID: 3004390404230680604}
   - component: {fileID: 4355700286080503044}
   - component: {fileID: 5170950489989553816}
-  m_Layer: 0
+  - component: {fileID: 2762880165691321882}
+  m_Layer: 7
   m_Name: floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,3 +116,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &2762880165691321882
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8995828842938070438}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 19.91, y: 19.910004, z: 0.5754993}
+  m_Center: {x: 0, y: -0.0000014007092, z: -0.12149985}

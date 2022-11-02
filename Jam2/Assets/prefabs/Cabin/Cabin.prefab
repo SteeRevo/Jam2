@@ -7242,6 +7242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_floor
       objectReference: {fileID: 0}
+    - target: {fileID: 6152455993176425442, guid: 1c86a3b00696c24418625d93333058a6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 6785300163355302232, guid: 1c86a3b00696c24418625d93333058a6, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -7286,7 +7290,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8995828842938070438, guid: 1c86a3b00696c24418625d93333058a6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5372111210319435828, guid: 1c86a3b00696c24418625d93333058a6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1c86a3b00696c24418625d93333058a6, type: 3}
 --- !u!4 &6459345532795215180 stripped
 Transform:
