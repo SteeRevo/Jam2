@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 168276492}
   - component: {fileID: 168276491}
   - component: {fileID: 168276490}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -576,6 +576,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 71720335054124421, guid: 4615d1f2328534c479d60e8f28043b02, type: 3}
+      propertyPath: groundDistance
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 71720335054124422, guid: 4615d1f2328534c479d60e8f28043b02, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -586,7 +590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 71720335054124422, guid: 4615d1f2328534c479d60e8f28043b02, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.83
+      value: 5.648
       objectReference: {fileID: 0}
     - target: {fileID: 71720335054124422, guid: 4615d1f2328534c479d60e8f28043b02, type: 3}
       propertyPath: m_LocalPosition.z
