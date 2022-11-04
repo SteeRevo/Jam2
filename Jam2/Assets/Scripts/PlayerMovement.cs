@@ -35,10 +35,6 @@ public class PlayerMovement : MonoBehaviour
         } else
         {
             velocity.y = 0;
-            if (Input.GetButtonDown("Jump"))
-            {
-                velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-            }
         }
         controller.Move(velocity * Time.deltaTime);
 
