@@ -1,19 +1,9 @@
 fileFormatVersion: 2
-guid: 76f7ab9a4f1527c4ca3863e77a0160f3
+guid: 46637f81e2a45d840b8f65c45e6c040b
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material.017
-    second: {fileID: 8421540975593767751, guid: 46637f81e2a45d840b8f65c45e6c040b, type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: wood_post
-    second: {fileID: 8421540975593767751, guid: 46637f81e2a45d840b8f65c45e6c040b, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
