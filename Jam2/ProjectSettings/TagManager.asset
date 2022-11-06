@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PortalInvisble
   - OfficeObject
+  - IslandObject
   layers:
   - Default
   - TransparentFX
