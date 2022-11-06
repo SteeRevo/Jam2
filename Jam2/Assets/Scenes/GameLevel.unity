@@ -3932,7 +3932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 917904310284176732, guid: 5d83f38d14c0a174b871f720d0fa0739, type: 3}
       propertyPath: m_TagString
-      value: OfficeObject
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 917904310284176733, guid: 5d83f38d14c0a174b871f720d0fa0739, type: 3}
       propertyPath: m_RootOrder
@@ -4288,7 +4288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6291322694471540566, guid: 5d83f38d14c0a174b871f720d0fa0739, type: 3}
       propertyPath: m_TagString
-      value: OfficeObject
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6500936170993569759, guid: 5d83f38d14c0a174b871f720d0fa0739, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5814,9 +5814,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2166073436084126099, guid: df91f243de10f1c4bae6ac6e839b89c3, type: 3}
+      propertyPath: m_TagString
+      value: CabinObject
+      objectReference: {fileID: 0}
     - target: {fileID: 2279266552601436784, guid: df91f243de10f1c4bae6ac6e839b89c3, type: 3}
       propertyPath: m_Name
       value: SingingFish
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279266552601436784, guid: df91f243de10f1c4bae6ac6e839b89c3, type: 3}
+      propertyPath: m_TagString
+      value: CabinObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df91f243de10f1c4bae6ac6e839b89c3, type: 3}
