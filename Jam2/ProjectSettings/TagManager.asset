@@ -7,6 +7,7 @@ TagManager:
   - PortalInvisble
   - OfficeObject
   - IslandObject
+  - CabinObject
   layers:
   - Default
   - TransparentFX
